@@ -13,6 +13,6 @@ struct Card: Hashable, Identifiable {
     let title: String
     let description: String
     
-    static let cardExample = Card(image: "ace", title: "Решала", description: "Ты решаешь, кому пить.")
+    static let cardExample = Card(image: "ace_of_hearts", title: "Решала", description: "Ты решаешь, кому пить. Укажи пальцем на счастливчика.")
     static let cardsExample = [Card](repeating: cardExample, count: 4)
 }
